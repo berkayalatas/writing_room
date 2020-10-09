@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(21, 32, 43);
+  color: #333333;
+  margin-top: 5rem;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+#nameOfWebsite {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+#nameOfWebsite:hover {
+  color: rgb(222, 243, 33);
+}
+
+ 
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #1d94dd;
+}
+
+.logoImg {
+  height: 14%;
+  width: 14%;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 700;
+}
+
+.content-section {
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  background-color: rgb(30, 45, 59);
+}
+
+article.media {
+  background-color: rgb(30, 45, 59);
+  color: #f0eeee;
+  border-radius: 2%;
+  border: 1px solid #1b1d1f;
+}
+
+.letterNav a {
+  font-weight: 700;
+  color: rgb(0, 0, 0) !important;
+  font-size: 18px;
+  padding: 15px;
+  letter-spacing: 2px;
+  margin-right: 20px;
+}
+
+.letterNav a:hover {
+  background-color: rgb(45, 111, 187);
+  border-radius: 10%;
+  color: rgb(222, 243, 33) !important;
+}
+
+/* Posts */
+
+#author {
+  color: #a4c706
+}
+
+#author:hover {
+  opacity: 0.7;
+}
+
+#date {
+  color: rgb(197, 195, 195) !important;
+
+}
+
+article.media {
+  border-radius: 10px;
+}
+
+.article-title {
+  color: #a4c706;
+}
+
+a.article-title:hover {
+  color: #8ca810;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+/* Side Bar */
+.sidebar {
+  background-color: rgb(30, 45, 59);
+  border: 1px solid rgb(32, 55, 77);
+}
+
+#sideSection h3,
+#sideSection li {
+  color: #ffffff !important;
+}
+
+ 
+/* Profile Section*/
+
+#profileSection{
+  border: 1px solid rgb(32, 55, 77);
+  border-radius: 10px;
+}
+
+div.media h2 {
+  color: #c1e035;
+}
+
+div.media p{
+  color: #e3e3e3 !important;
+}
+
+#id_image{
+  color: #8ca810;
+}
+
+.form-group a {
+  color: #17c272;
+  text-decoration: none;
+  
+}
+
+.form-group ,
+.form-group label {
+  color: #a0be16;
+}
+
+#id_image{
+  color: #17c272;
+}
+
+ 

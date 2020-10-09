@@ -1,0 +1,92 @@
+/* Register Form */
+
+#registerForm {
+    background-color: rgb(30, 45, 59);
+    color: #bee025;
+    border: 1px solid rgb(32, 55, 77);
+}
+
+legend {
+    color: #c1e035;
+    font-weight: 600;
+}
+
+
+.form-group button {
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    background: #28771e;
+    border: 1px solid #1f8f7c;
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.form-group button::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1f5e16;
+    border-radius: inherit;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    -webkit-transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.form-group button:hover {
+    background: #1f5e16;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
+}
+
+.form-group button:hover::before {
+    box-shadow: 0 0 0 2px #375e2f, 0 0.5em 0 0 #397552;
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
+}
+
+.form-group button:active {
+    background: #ffe9e9;
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
+}
+
+.form-group button:active::before {
+    box-shadow: 0 0 0 2px #86b185, 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
+}
+
+
+/* Already hava an account*/
+
+.border-top small {
+    color: #bee025 !important;
+}
+
+.border-top a {
+    color: #4eecd2;
+}
+
+.form-control{
+    background-color: #BEBEBE;
+}
+
+
+.text-muted{
+    color: #e2d6d6 !important;
+}

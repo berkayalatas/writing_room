@@ -1,0 +1,64 @@
+{% extends 'blog/base.htm' %} {% block content %}
+
+<style>
+  .form-group button {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.5em 1.1em;
+    background: rgb(177, 44, 21);
+    border: 1px solid #5b6664;
+    border-radius: 0.75em;
+    transform-style: preserve-3d;
+    -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1),
+      -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1),
+      -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
+      background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
+      background 150ms cubic-bezier(0, 0, 0.58, 1),
+      -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+  }
+
+  .form-group button::before {
+    background: rgb(177, 44, 21);
+  }
+
+  .form-group button:hover {
+    background: rgb(177, 44, 21);
+    color:#17c272;
+  }
+
+  .form-group button:hover::before {
+    box-shadow: 0 0 0 0px #375e2f, 0 0em 0 0 #397552;
+  }
+
+  .form-group button:active {
+    background: rgb(177, 44, 21);
+  }
+
+  .form-group button:active::before {
+    box-shadow: 0 0 0 0px rgb(177, 44, 21), 0 0 rgb(177, 44, 21);
+  }
+
+</style>
+
+<div id="registerForm" class="content-section">
+  <form action="" method="POST">
+    {% csrf_token %}
+    <fieldset class="form-group">
+      <legend class="border-bottom mb-4">Delete Post</legend>
+      <h2>Are you sure you want to delete the post "{{ object.title }}"</h2>
+    </fieldset>
+    <div class="form-group">
+      <button class="btn btn-outline-danger" type="submit">Delete</button>
+      <a
+        class="btn btn-outline-secondary"
+        href="{% url 'post-detail' object.id %}"
+        >Cancel</a
+      >
+    </div>
+  </form>
+</div>
+{% endblock content %}
