@@ -19,9 +19,9 @@
     <link rel="stylesheet"  type="text/css" href="{% static 'users/form_style.css' %}">
 
     {% if title %}
-      <title>Django Blog - {{ title }}</title>
+      <title>Writing Room - {{ title }}</title>
     {% else %}
-      <title>Django Blog</title>
+      <title>Writing Room</title>
     {% endif %}
   </head>
   <body>
@@ -39,6 +39,7 @@
           <button
             class="navbar-toggler"
             type="button"
+            id="navButton"
             data-toggle="collapse"
             data-target="#navbarToggle"
             aria-controls="navbarToggle"

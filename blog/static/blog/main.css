@@ -24,7 +24,19 @@ body {
   color: rgb(222, 243, 33);
 }
 
- 
+
+/* mobile navbar */ 
+@media all and (max-width:450px) {
+  #navButton{
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    padding: 15px;
+  }
+}
+
+
 
 ul {
   margin: 0;
@@ -193,4 +205,3 @@ div.media p{
   color: #17c272;
 }
 
- 
