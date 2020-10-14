@@ -1,6 +1,6 @@
 from django.http import request
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from django.shortcuts import render,get_object_or_404
+from django.shortcuts import redirect, render,get_object_or_404
 from django.views.generic import (ListView,
                                   DetailView,
                                   CreateView,
@@ -78,3 +78,11 @@ class PostDeleteView(LoginRequiredMixin,UserPassesTestMixin,DeleteView):
 
 def about(request):
     return render(request, 'blog/about.htm', {'title': ' About'})
+
+def announcements(request):
+    return render(request, 'blog/announcements.htm',{'title': 'Announcements'})
+
+def calendar(request):
+    return render(request, 'blog/calendar.htm',{'title': 'Calendar'})    
+
+ 
