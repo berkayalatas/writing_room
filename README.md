@@ -10,4 +10,5 @@
 http://berkayalatas.pythonanywhere.com  <br><br>
 
 
-![a](https://user-images.githubusercontent.com/59448862/95679986-fa9a6600-0bde-11eb-9e1f-c34d0a866ded.PNG)
+![1](https://user-images.githubusercontent.com/59448862/95987244-d2557600-0e2f-11eb-9a9b-2a1acf2e167e.PNG)
+
