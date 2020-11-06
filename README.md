@@ -9,7 +9,7 @@
 -> They can see other users posts. <br><br> 
 -> Also they can reset their passwords and change profile picture. <br><br>
 
-### http://berkayalatas.pythonanywhere.com  <br>
+ 
 
 
 ![1](https://user-images.githubusercontent.com/59448862/95987244-d2557600-0e2f-11eb-9a9b-2a1acf2e167e.PNG)
